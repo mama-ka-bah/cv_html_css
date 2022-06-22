@@ -78,17 +78,12 @@ main{
 	width: 60vw;
 	margin: auto;
 }
-/*h1,h2{
-	margin: 0;
-}*/
 .profil{
 	margin-top: -12px;
 	margin-bottom: 5px;
 	padding: 0;
 }
 .tt img{
-	/*display: inline-block;
-	float: right;*/
 	width: 30px;
 	height: 20px;
 	margin-bottom: -5px;
