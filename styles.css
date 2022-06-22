@@ -5,7 +5,7 @@ html{
 .img{
 	border-radius: 90%;
 	border: 5px solid white;
-	width: 25vh;
+	width: 50%;
 	margin-left: 5vw;
 	margin-right: 5vw;
 	margin-top: 1vh;
@@ -91,9 +91,6 @@ main{
 .tt span{
 	margin-top:-20px;
 }
-.tt1{
-	
-}
 .tt1 h2{
 	font-size: 16px;
 }
@@ -114,23 +111,18 @@ ul{
 	margin: auto;
 }
 @media screen and (max-width: 1000px){
-	.img{
+	/*.img{
 	margin-top: 6vh;
-	}
+	}*/
 }
 
 @media screen and (max-width: 845px){
-	.img{
-	width: 15vw;
-	height: 15vh;	
-	}
-
 	.cnt1:nth-child(1){
 	flex: 20vw;
 	margin: auto;
 	}
 	.cnt1:nth-child(2){
-	flex: 40vw;
+	flex: 60%;
 	}
 	ul{
 	list-style: none;
@@ -146,6 +138,7 @@ ul{
 	.tt1{
 		margin: 0;
 		margin-left: -10px;
+		width: ;
 	}
 
 }
@@ -167,7 +160,7 @@ ul{
 	margin: 0;
 	}
 	.cnt:nth-child(3){
-	flex: 100%;
+	/*flex: 100%;*/
 	margin: 0;
 	}
 	.tt1 h2{
@@ -192,12 +185,11 @@ ul{
 }
 
 @media screen and (max-width: 320px){
-	.img{
-		height: 20vh;
-		width: 70vw;
-		}
 		.cnt1:nth-child(1){
 			flex: 10vw;
 			margin: auto;
+			}
+			.img{
+
 			}
 }
