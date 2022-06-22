@@ -69,6 +69,7 @@ div[class="cnt4"] p{
 }
 .cnt1:nth-child(2){
 	flex: 25vw;
+	padding: 10px;
 }
 .cnt1:nth-child(1){
 	flex: 10vw;
@@ -80,7 +81,6 @@ main{
 .profil{
 	margin-top: -12px;
 	margin-bottom: 5px;
-	padding: 10px;
 }
 .tt img{
 	width: 30px;
